@@ -1,6 +1,4 @@
-ASSIGNMENT 1 - VIREN FERNANDES - TUTEDUDE
-
-(Task 1)
+"""
 Problem Statement: Write a Python program that does the following:
 1. Takes two numbers as input from the user.
 2. Performs the basic mathematical operations on these two
@@ -10,10 +8,12 @@ o Subtraction
 o Multiplication
 o Division
 3. Displays the results of each operation on the screen.
+"""
 
-(Task 2)
-Problem Statement: Write a Python program that:
-1. Takes a user's first name and last name as input.
-2. Concatenates the first name and last name into a full name.
-3. Prints a personalized greeting message using the full name.
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
 
+print("Addition: ", int(a + b))
+print("Subtraction: ", int(a - b))
+print("Multiplication: ", int(a * b))
+print("Division: ", a / b)
